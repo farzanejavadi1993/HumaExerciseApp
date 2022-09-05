@@ -2,5 +2,6 @@
 
     <style name="Theme.HumaExerciseApp" parent="@style/Theme.Leanback">
         <item name="android:layoutDirection">rtl</item>
+        <item name="browseTitleViewLayout">@layout/titleview</item>
     </style>
 </resources>
