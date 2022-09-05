@@ -3,5 +3,6 @@
     <style name="Theme.HumaExerciseApp" parent="@style/Theme.Leanback">
         <item name="android:layoutDirection">rtl</item>
         <item name="browseTitleViewLayout">@layout/titleview</item>
+        <item name="android:typeface">serif</item>
     </style>
 </resources>
