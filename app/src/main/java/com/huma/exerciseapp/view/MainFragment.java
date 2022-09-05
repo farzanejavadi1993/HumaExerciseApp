@@ -1,6 +1,7 @@
 package com.huma.exerciseapp.view;
 
 
+import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.os.Handler;
 import android.util.DisplayMetrics;
@@ -23,6 +24,7 @@ import com.huma.exerciseapp.adapter.CardPresenter;
 import com.huma.exerciseapp.classes.MovieList;
 import com.huma.exerciseapp.model.MovieSerial;
 import com.huma.exerciseapp.R;
+
 
 import java.util.List;
 import java.util.Timer;
@@ -55,6 +57,13 @@ public class MainFragment extends BaseBrowseFragment2 {
         setBrandColor(ContextCompat.getColor(requireContext(), R.color.fastlane_background));
         setSearchAffordanceColor(ContextCompat.getColor(requireContext(), R.color.search_opaque));
 
+        setOnSearchClickedListener(view -> {
+
+            Toast.makeText(getActivity(), "With RecyclerView!", Toast.LENGTH_SHORT).show();
+
+            Intent intent = new Intent(requireContext(), MainRecyclerActivity.class);
+            startActivity(intent);
+        });
 
         loadMovies();
     }
@@ -140,6 +149,9 @@ public class MainFragment extends BaseBrowseFragment2 {
                         mBackgroundManager.setDrawable(drawable);
                     }
                 });
+
+
+
         mBackgroundTimer.cancel();
     }
 

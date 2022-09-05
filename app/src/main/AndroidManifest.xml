@@ -31,5 +31,8 @@
                 <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".view.MainRecyclerActivity"
+            android:exported="true"
+            android:screenOrientation="landscape"/>
     </application>
 </manifest>
