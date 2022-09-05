@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Farzane/.gradle/caches/transforms-2/files-2.1/d3986c21d212bf6db80ece48ede0e17c/HumaLeanbackLibs-1.3.1/res/drawable/default_background.xml" value="0.1515" />
+        <entry key="..\:/Users/Farzane/Desktop/HumaExerciseApp/app/src/main/res/drawable/menuselectordrawable.xml" value="0.1305" />
+        <entry key="..\:/Users/Farzane/Desktop/HumaExerciseApp/app/src/main/res/drawable/selectordrawable.xml" value="0.1305" />
+        <entry key="..\:/Users/Farzane/Desktop/HumaExerciseApp/app/src/main/res/layout/activity_main.xml" value="0.21458333333333332" />
+        <entry key="..\:/Users/Farzane/Desktop/HumaExerciseApp/app/src/main/res/layout/activity_main_recycler.xml" value="0.11979166666666667" />
+        <entry key="..\:/Users/Farzane/Desktop/HumaExerciseApp/app/src/main/res/layout/custom_titleview.xml" value="0.25" />
+        <entry key="..\:/Users/Farzane/Desktop/HumaExerciseApp/app/src/main/res/layout/menulayout.xml" value="0.11979166666666667" />
+        <entry key="..\:/Users/Farzane/Desktop/HumaExerciseApp/app/src/main/res/layout/titleview.xml" value="0.11979166666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
